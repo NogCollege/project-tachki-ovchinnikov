@@ -96,18 +96,59 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffff 30%;
     position: absolute;
     width: 1320px;
     margin-top: 100px;
     margin-left: 250px;
 }
-.img-4 {
-    display: flex;
-    justify-content: center;
+.info-number{
+    display: grid;
+    grid-template-columns: repeat(5,300px);
+    
     margin-top: 200px;
-    margin-left: 300px;
+    color: white;
 }
+.number-1 {
+   margin-left: 250px;
+   margin-top: -20px;
+}
+.number1 {
+    margin-right: 50px;
+    margin-top: -20px;
+}
+.number-2 {
+    margin-right: 70px;
+    margin-top: -40px;
+ }
+ .number2 {
+    padding: 0 40px;
+     margin-top: -30px;
+     
+ }
+ .number-3 {
+    margin-top: -30px;
+ }
+ .number3 {
+    margin-left: 50px;
+    margin-top: -30px;
+ }
+ .number-4 {
+    margin-top: -10px;
+
+ }
+ .number4 {
+    margin-left: 1250px;
+    margin-top: -45px;
+ }
+ .number-5 {
+    margin-left: 1150px;
+    margin-top: -30px;
+ }
+ .number5 {
+    margin-left: 910px;
+    margin-top: -30px;
+ }
 .content3 {
   display: flex;
   justify-content: center;
@@ -150,9 +191,53 @@
     justify-content: center;
 }
 .table {
-    display: flex;
-    margin-top: 500px;
+    display: grid;
+    margin-top: 800px;
+    grid-template-columns: repeat(5,300px);
 }
+.car1 {
+    
+    margin-top: 320px;
+ }
+ .bth-car1 {
+     
+     margin-top: 320px;
+ }
+ .car {
+     margin-right: 70px;
+     margin-top: -40px;
+  }
+  .bth-car {
+     padding: 0 40px;
+      margin-top: -30px;
+      
+  }
+  .car {
+     margin-top: -30px;
+  }
+  .bth-car {
+     margin-left: 50px;
+     margin-top: -30px;
+  }
+  .car {
+     margin-top: -10px;
+ 
+  }
+  .bth-car {
+     margin-left: 1250px;
+     margin-top: -45px;
+  }
+  .car5 {
+     margin-left: 1150px;
+     margin-top: -30px;
+  }
+  .bth-car5 {
+     margin-left: 910px;
+     margin-top: -30px;
+  }
+
+
+
 .text-logo2{
    display: flex;
    text-align: center;
@@ -161,12 +246,7 @@
    margin-left: 150px;
 }
 
-.img-8 {
-    width: 1008px;
-    height: 74px;
-    margin-top: 190px;
-    margin-left: -350px;
-}
+
 .table-1 {
     
     margin-top: 150px;
