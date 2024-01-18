@@ -1,0 +1,258 @@
+.container {
+    
+    background-color: #181818;
+    max-width: 1920px;
+    max-height: 125px;
+    
+}
+.header-row {
+    display: flex;
+    justify-content: center;
+    padding: 49px 12px;
+}
+.img-1 {
+    margin-right: 50px;
+}
+.content-2 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 178px;
+    height: 38px;
+}
+.header-text {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+.header-text ul  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.header-text li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    padding:30px;
+}
+.img-soc {
+    width: 48px;
+    height: 19px;
+}
+.img-2 {
+    width: 104px;
+    height: 46px;
+    margin-left: 40px;
+}
+.header-tel {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 100px;
+
+}
+.bth {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid grey;
+    margin-left: 300px;
+    margin-top: -50px;
+}
+.container-2 {
+    max-width: 1920px;
+}
+.img-3 {
+    max-width: 1920px;
+    height: 966px;
+}
+.text-center {
+    display: flex;
+    justify-content: center;
+    margin-top: -900px;
+    font-size: 89px;
+    line-height: 91px;
+    color: white;
+}
+.text-center2 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+}
+.hr {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    position: absolute;
+    width: 1320px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.img-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.content3 {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  max-width: 1320px;
+  height: 71px;
+  padding: 80px 0px;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.img-5 {
+    width: 242px;
+    height: 76px;
+    margin-right: 10px;
+    margin-top: 30px;
+    
+}
+
+.img-7 {
+    width: 340px;
+    height: 56px;
+    margin-left: 40px;
+}
+.text-logo {
+    display: flex;
+    margin-top: -50px;
+}
+.bth-2 {
+    background-color:orange;
+    color: white;
+    margin-left: 70px;
+    padding: 10px 25px 25px;
+    text-decoration: none;
+    justify-content: center;
+}
+.table {
+    display: flex;
+    margin-top: 500px;
+}
+.text-logo2{
+   display: flex;
+   text-align: center;
+   font-size: 48px;
+   line-height: 62px;
+   padding: 0 100px;
+}
+
+.img-8 {
+    width: 1008px;
+    height: 74px;
+    margin-top: 190px;
+    margin-left: -600px;
+}
+.table-1 {
+    
+    margin-top: 150px;
+}
+.table1 {
+    
+    padding-left: 200px;
+    justify-content: center;
+}
+.table2 {
+    padding-left: 200px;
+}
+.table3 {
+    padding-left: 200px;
+}
+.text-info {
+    font-size: 28px;
+    line-height: 38px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.text-info2{
+    display: flex;
+    font-size: 18px;
+    line-height: 24px;
+    color: #9F9F9F;
+    justify-content: center;
+}
+
+.logo2 {
+    display: flex;
+    margin-top: -700px;
+    color: white;
+    font-size: 48px;
+    line-height: 62px;
+    margin-left: 200px;
+}
+.info1 {
+    display: flex;
+    margin-left: 200px;
+    font-size: 28px;
+    line-height: 32px;
+    color: white;
+}
+.info2 {
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin-left: 200px;
+}
+.menu1 {
+    justify-content: center;
+    margin-top: -300px;
+    margin-left: 1200px;
+    padding: 60px 40px;
+    position: absolute;
+}
+
+.bth3 {
+    padding: 20px 0 ;
+    text-decoration: none;
+    color: #181818;
+    display: flex;
+    border: 2px solid white;
+    background-color:white;
+    padding: 20px 40px;
+}
+.bth4 {
+    
+    border: 2px solid white;
+    color: #A4A4A4;
+    display: flex;
+    text-decoration: none;
+    padding: 20px 40px;
+    
+}
+.bth5{
+    color: #ffffff;
+    border: 2px solid white;
+    text-decoration: none;
+    padding:20px 50px;
+    margin: 20px 40px;
+    
+}
+.img-9 {
+    display: flex;
+    margin-left: 1240px;
+}
+.text-img {
+    display: flex;
+    color: white;
+    margin-left: 1280px;
+    margin-top: -20px;
+    text-align: center;
+}
+.text-logo3 {
+    font-size: 48px;
+    line-height: 62px;
+    color: white;
+}
