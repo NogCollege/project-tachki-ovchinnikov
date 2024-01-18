@@ -1,3 +1,6 @@
+.body {
+    background-color: gray;
+}
 .container {
     
     background-color: #181818;
@@ -11,7 +14,7 @@
     padding: 49px 12px;
 }
 .arenda {
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: -0.5px;
     font-size: 22px;
     line-height:28px;
@@ -108,7 +111,7 @@
 .content3 {
   display: flex;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: whitesmoke;
   max-width: 1320px;
   height: 71px;
   padding: 80px 0px;
@@ -116,18 +119,23 @@
   margin-left: 300px;
   margin-top: 100px;
 }
-.img-5 {
-    width: 242px;
-    height: 76px;
-    margin-right: 10px;
-    margin-top: 30px;
-    
+.bth1{
+    background-color: white;
+    margin-right: 100px;
+    margin-top: 60px;
+    text-decoration: none;
+    color: #A4A4A4;
+    padding: 30px 40px;
+    justify-content: center;
 }
 
-.img-7 {
-    width: 340px;
-    height: 56px;
-    margin-left: 40px;
+.bth2 {
+    background-color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #A4A4A4;
+    padding: 30px 40px;
+    justify-content: center;
 }
 .text-logo {
     display: flex;
@@ -150,14 +158,14 @@
    text-align: center;
    font-size: 48px;
    line-height: 62px;
-   padding: 0 100px;
+   margin-left: 150px;
 }
 
 .img-8 {
     width: 1008px;
     height: 74px;
     margin-top: 190px;
-    margin-left: -600px;
+    margin-left: -350px;
 }
 .table-1 {
     
@@ -258,5 +266,45 @@
 .text-logo3 {
     font-size: 48px;
     line-height: 62px;
-    color: white;
+    color: black;
+    margin-top: 300px;
+    justify-content: center;
+    margin-left: 190px;
+}
+.block2 {
+    display: grid;
+    grid-template-columns: repeat(2,900px);
+    justify-content: center;
+
+}
+
+.content-grid1 {
+   padding-left: 100px;
+   background-color: whitesmoke;
+   width: 648px;
+   height: 500px;
+   padding: 0px 20px;
+   margin-left: 180px;
+}
+.content-grid2 {
+    padding-left: 100px;
+    background-color: whitesmoke;
+    width: 648px;
+    height: 500px;
+    padding: 0px 20px;
+    
+ }
+.img-10 {
+    width: 648px;
+    height: 391px;
+}
+.text-log {
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+}
+.info3 {
+    font-size: 16px;
+    line-height: 18px;
+    color: #989898;
 }
