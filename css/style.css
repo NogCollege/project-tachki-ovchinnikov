@@ -58,7 +58,6 @@
     text-align: center;
     text-decoration: none;
     margin-right: 100px;
-
 }
 .bth {
     display: flex;
@@ -105,7 +104,6 @@
 .info-number{
     display: grid;
     grid-template-columns: repeat(5,300px);
-    
     margin-top: 200px;
     color: white;
 }
@@ -122,7 +120,7 @@
     margin-top: -40px;
  }
  .number2 {
-    padding: 0 40px;
+     padding: 0 40px;
      margin-top: -30px;
      
  }
@@ -150,15 +148,15 @@
     margin-top: -30px;
  }
 .content3 {
-  display: flex;
-  justify-content: center;
-  background-color: whitesmoke;
-  max-width: 1320px;
-  height: 71px;
-  padding: 80px 0px;
-  position: absolute;
-  margin-left: 300px;
-  margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    max-width: 1320px;
+    height: 71px;
+    padding: 80px 0px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 100px;
 }
 .bth1{
     background-color: white;
@@ -180,10 +178,11 @@
 }
 .text-logo {
     display: flex;
-    margin-top: -50px;
+    margin-top: -80px;
+    text-align: center;
 }
 .bth-2 {
-    background-color:orange;
+    background-color: #B8860B	;
     color: white;
     margin-left: 70px;
     padding: 10px 25px 25px;
@@ -195,67 +194,84 @@
     margin-top: 800px;
     grid-template-columns: repeat(5,300px);
 }
-.car1 {
-    
-    margin-top: 320px;
- }
- .bth-car1 {
-     
-     margin-top: 320px;
- }
- .car {
-     margin-right: 70px;
-     margin-top: -40px;
-  }
-  .bth-car {
-     padding: 0 40px;
-      margin-top: -30px;
-      
-  }
-  .car {
-     margin-top: -30px;
-  }
-  .bth-car {
-     margin-left: 50px;
-     margin-top: -30px;
-  }
-  .car {
-     margin-top: -10px;
+.img-8 {
+    display: flex;
+    margin-top: 70px;
+}
  
-  }
-  .bth-car {
-     margin-left: 1250px;
-     margin-top: -45px;
-  }
-  .car5 {
-     margin-left: 1150px;
-     margin-top: -30px;
-  }
-  .bth-car5 {
-     margin-left: 910px;
-     margin-top: -30px;
-  }
-
-
-
 .text-logo2{
-   display: flex;
-   text-align: center;
-   font-size: 48px;
-   line-height: 62px;
-   margin-left: 150px;
+    display: flex;
+    font-size: 48px;
+    line-height: 62px;
+    margin-left: 150px;
+    margin-top: -170px;
 }
-
-
+.content {
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    justify-content: center;
+    
+}
+.grid1 {
+    display: block;
+    width: 424px;
+    height:354px;
+    background-color:whitesmoke ;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 24px;
+}
+.car1 {
+    margin-top: 30px;
+}
+.m-img {
+    width: 59px;
+    height: 27px;
+    margin-left: 380px;
+    margin-top: 290x;
+}
+.d-img {
+    width: 59px;
+    height: 27px;
+    margin-left: 380px;
+    margin-top: -290x;
+}
+.text-car1 {
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    margin-right:180px ;
+}
+.center1 {
+    margin-right: 90px;
+}
+.hr2 {
+    width: 324px;
+    border: 1px solid #EBEBEB;
+    margin-top: 20px;
+}
+.bth-car1 {
+    background-color: #9F7437 ;
+    text-decoration: none;
+    color: white;
+    padding-top: 50px;
+    padding: 8px 22px;
+    margin-right: 150px;
+    
+}
+.arenda-car1 {
+    margin-left: 170px;
+    margin-top: -20px;
+    color: black;
+    font-size: 20px;
+    line-height: 20px;
+}
 .table-1 {
-    
-    margin-top: 150px;
-}
-.table1 {
-    
+    margin-top: 100px;
     padding-left: 200px;
     justify-content: center;
 }
+
 .table2 {
     padding-left: 200px;
 }
@@ -342,6 +358,7 @@
     margin-left: 1280px;
     margin-top: -20px;
     text-align: center;
+    
 }
 .text-logo3 {
     font-size: 48px;
@@ -359,12 +376,12 @@
 }
 
 .content-grid1 {
-   padding-left: 100px;
-   background-color: whitesmoke;
-   width: 648px;
-   height: 500px;
-   padding: 0px 20px;
-   margin-left: 180px;
+    padding-left: 100px;
+    background-color: whitesmoke;
+    width: 648px;
+    height: 500px;
+    padding: 0px 20px;
+    margin-left: 180px;
 }
 .content-grid2 {
     padding-left: 100px;
