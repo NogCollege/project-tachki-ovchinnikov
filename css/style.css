@@ -1,5 +1,6 @@
+
 .body {
-    background-color: gray;
+    background-color: whitesmoke;
 }
 .container {
     
@@ -533,4 +534,131 @@
 }
 .logo4 {
     color: black;
+}
+.s-img {
+    margin-top: 70px;
+    width:122px ;
+    height: 54px;
+}
+.n-img {
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 38px;
+    height: 40px;
+}
+
+.block6 {
+    margin-top: 200px;
+    background-color: whitesmoke;
+    height: 1000px;
+}
+
+.logo5 {
+    margin-left: 300px;
+    color: black;
+    font-size: 48px;
+    line-height: 62px;
+}
+.str-img {
+    margin-top: 400px;
+    margin-left: 200px;
+}
+
+.content7 {
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    justify-content: center;
+}
+.grid3 {
+    display:flex;
+    padding: 0 120px;
+}
+.info-text4 {
+    margin-top: 580px;
+    position: absolute;
+    margin-left: 20px;
+    color: black;
+    font-size: 20px;
+    line-height: 28px;
+}
+.info-text5 {
+    margin-top: 580px;
+    position: absolute;
+    margin-left: 480px;
+    color: black;
+    font-size: 20px;
+    line-height: 28px;
+}
+.info-text6 {
+    margin-top: 580px;
+    position: absolute;
+    margin-left: 950px;
+    color: black;
+    font-size: 20px;
+    line-height: 28px;
+}
+.bg-img {
+    width: 424px;
+    height: 540px;
+    padding: 0 20px;
+}
+.str-img {
+    width: 54px;
+    height: 54px;
+    margin-top: 575px;
+    margin-left: -70px;
+}
+.block7 {
+    background-color: whitesmoke;
+}
+.logo6 {
+    margin-top: 150px;
+    color: black;
+    font-size: 48px;
+    line-height: 62px;
+    margin-left: 380px;
+}
+.content8 {
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    justify-content: center;
+    margin-left: 200px;
+}
+.gr-img {
+    margin-left: 100px;
+}
+.logo7 {
+    margin-left: -260px;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+}
+.info4 {
+    margin-top: 70px;
+    margin-left: -770px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #989898;
+}
+.grid-1 {
+    margin-left: 1000px;
+    margin-top: -200px;
+    padding: 20px;
+}
+.gr-img2 {
+    margin-top: 70px;
+    margin-left: -100px;
+}
+.logo8 {
+    margin-top: -100px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+}
+.info5 {
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #989898;
 }
