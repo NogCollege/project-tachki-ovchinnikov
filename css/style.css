@@ -1,6 +1,6 @@
 
-.body {
-    background-color: whitesmoke;
+body {
+    background-color:whitesmoke;
 }
 .container {
     
@@ -159,7 +159,7 @@
 .content3 {
     display: flex;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: white;
     max-width: 1420px;
     height: 71px;
     padding: 80px 0px;
@@ -174,7 +174,7 @@
     margin: 0 -170px;
 }
 .bth1{
-    background-color: white;
+    background-color: whitesmoke;
     padding: 20px 28px;
     text-decoration: none;
     color: #A4A4A4;
@@ -190,7 +190,7 @@
 }
 
 .bth2 {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 20px 18px;
     text-decoration: none;
     color: #A4A4A4;
@@ -242,7 +242,7 @@
     display: block;
     width: 424px;
     height:354px;
-    background-color:whitesmoke ;
+    background-color:white ;
     text-align: center;
     margin-top: 50px;
     padding: 0 24px;
@@ -406,7 +406,7 @@
 
 .content-grid1 {
     padding-left: 100px;
-    background-color: whitesmoke;
+    background-color: white;
     width: 628px;
     height: 500px;
     padding: 0px 20px;
@@ -415,7 +415,7 @@
 }
 .content-grid2 {
     padding-left: 100px;
-    background-color: whitesmoke;
+    background-color: white;
     width: 628px;
     height: 500px;
     padding: 0px 20px;
@@ -452,7 +452,7 @@
     display: block;
     width: 424px;
     height:172px;
-    background-color:whitesmoke ;
+    background-color:white;
     text-align: center;
     margin-top: 50px;
     padding: 0 24px;
@@ -512,7 +512,7 @@
     position: absolute;
     Width:536px;
     Height: 448px;
-    background-color:whitesmoke ;
+    background-color:white;
     border-radius: 20px;
 }
 .Vector14 {
@@ -549,8 +549,6 @@
 
 .block6 {
     margin-top: 200px;
-    background-color: whitesmoke;
-    height: 1000px;
 }
 
 .logo5 {
@@ -608,9 +606,7 @@
     margin-top: 575px;
     margin-left: -70px;
 }
-.block7 {
-    background-color: whitesmoke;
-}
+
 .logo6 {
     margin-top: 150px;
     color: black;
@@ -646,7 +642,7 @@
     padding: 20px;
 }
 .gr-img2 {
-    margin-top: 70px;
+    margin-top: 55px;
     margin-left: -100px;
 }
 .logo8 {
@@ -661,4 +657,97 @@
     font-size: 16px;
     line-height: 26px;
     color: #989898;
+}
+.container3 {
+    width: 1860px;
+    height: 1459px;
+}
+.text-content {
+    padding: 0 300px;
+}
+.logo-9 {
+    font-size: 48px;
+    line-height: 62px;
+    color: white;
+    margin-top: -1400px;
+}
+.info6 {
+    color: white;
+    font-size: 28px;
+    line-height: 38px;
+}
+.info7 {
+    color: #9F9F9F;
+    font-size: 20px;
+    line-height: 30px;
+}
+.img-car34 {
+    justify-content: center;
+    margin-left: 740px;
+    margin-top: -600px;
+    width: 560px;
+    height: 580px;
+    border-radius: 20px;
+}
+.img-36 {
+    margin-left: 300px;
+    padding: 30px 0;
+}
+.logo10 {
+    color: white;
+    font-size: 48px;
+    line-height: 62px;
+    margin-left: 830px;
+    margin-top: -570px;
+}
+.info8 {
+    margin-left: 830px;
+    color: #9F9F9F;
+    font-size: 18px;
+    line-height: 30px;
+}
+.tel {
+    color: white;
+}
+.text8 {
+    color: white;
+    margin-top: -30px;
+}
+.grid-n {
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+}
+.content-n {
+    display: grid;
+    margin-left: 830px;
+    margin-top: 140px;
+}
+.n8-img {
+    width: 21px;
+    height: 21px;
+    margin-top: 0px;
+    margin-left: -50px;
+}
+.img8 {
+    margin-top: 30px;
+}
+.img9 {
+    margin-left: 300px;
+    margin-top: -50px;
+}
+.img10 {
+    margin-left: 600px;
+    margin-top: -50px;
+}
+.block-img {
+    display: flex;
+    background-color: white;
+    margin-top: 200px;
+    width: 1860px;
+    height: 280px;
+    border-radius: 36px;
+    justify-content: center;
+}
+.img-logo {
+    padding: 30px 50px;
 }
