@@ -22,6 +22,7 @@ body {
   color: white;
   margin-right: 100px;
   margin-top: -1px;
+  font-family: "Inter", sans-serif;
 }
 
 .content-2 {
@@ -51,6 +52,7 @@ body {
   color: white;
   justify-content: center;
   padding: 30px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .img-soc {
@@ -85,6 +87,7 @@ body {
   margin-top: -50px;
   padding: 8px 20px;
   border-radius: 10px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .container-2 {
@@ -98,11 +101,13 @@ body {
 
 .text-center {
   display: flex;
+  text-align: center;
   justify-content: center;
   margin-top: -900px;
-  font-size: 89px;
-  line-height: 91px;
+  font-size: 69px;
+  line-height: 81px;
   color: white;
+  font-family: "Unbounded", sans-serif;
 }
 
 .text-center2 {
@@ -111,6 +116,7 @@ body {
   font-size: 24px;
   line-height: 32px;
   color: white;
+  font-family: "Unbounded", sans-serif;
 }
 
 .hr {
@@ -139,6 +145,7 @@ body {
 .number1 {
   margin-left: 20px;
   margin-top: -20px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .number-2 {
@@ -149,6 +156,7 @@ body {
 .number2 {
   margin-left: 40px;
   margin-top: -35px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .number-3 {
@@ -158,6 +166,7 @@ body {
 .number3 {
   margin-left: 50px;
   margin-top: -30px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .number-4 {
@@ -167,6 +176,7 @@ body {
 .number4 {
   margin-left: 1250px;
   margin-top: -50px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .number-5 {
@@ -177,6 +187,7 @@ body {
 .number5 {
   margin-left: 860px;
   margin-top: -40px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .content3 {
@@ -280,15 +291,18 @@ body {
 
 .text-vn2 {
   margin-left: -10px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .text-vn3 {
   padding: 0 40px;
   margin-left: -30px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .text-vn4 {
   margin-left: -4px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .check2 {
@@ -299,6 +313,7 @@ body {
 
 .text-vn5 {
   margin-left: -3px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .bth-n {
@@ -309,6 +324,7 @@ body {
   border-radius: 10px;
   margin-left: 580px;
   margin-top: 15px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .table {
@@ -329,6 +345,7 @@ body {
   border-radius: 10px;
   padding-left: 60px;
   margin-left: 270px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .bth-a2 {
@@ -339,6 +356,7 @@ body {
   border-radius: 10px;
   margin-left: 20px;
   padding-left: 60px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .bth-a3 {
@@ -349,6 +367,7 @@ body {
   border-radius: 10px;
   margin-left: 20px;
   padding-left: 60px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .bth-a4 {
@@ -359,6 +378,7 @@ body {
   border-radius: 10px;
   margin-left: 20px;
   padding-left: 60px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .bth-a5 {
@@ -369,6 +389,7 @@ body {
   border-radius: 10px;
   margin-left: 20px;
   padding-left: 60px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .vector-car1 {
@@ -407,7 +428,7 @@ body {
   width: 43px;
   height: 10px;
   position: absolute;
-  margin-left: 835px;
+  margin-left: 844px;
   margin-top: 30px;
 }
 
@@ -415,7 +436,7 @@ body {
   width: 33px;
   height: 12px;
   position: absolute;
-  margin-left: 1020px;
+  margin-left: 1040px;
   margin-top: 30px;
 }
 
@@ -426,14 +447,15 @@ body {
 
 .text-logo2 {
   display: block;
-  font-size: 48px;
+  font-size: 37px;
   line-height: 62px;
-  margin-left: 270px;
+  margin-left: 250px;
   margin-top: 500px;
+  font-family: "Unbounded", sans-serif;
 }
 
 .bth-s {
-  margin-left: 800px;
+  margin-left: 820px;
   margin-top: -90px;
 }
 
@@ -443,6 +465,7 @@ body {
   border: 2px solid black;
   padding: 20px 30px;
   border-radius: 10px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .content4 {
@@ -524,6 +547,7 @@ body {
   justify-content: center;
   margin-top: 80px;
   margin-left: 200px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .text-info2 {
@@ -533,6 +557,7 @@ body {
   color: #9F9F9F;
   justify-content: center;
   margin-left: 200px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .logo2 {
@@ -542,6 +567,7 @@ body {
   font-size: 48px;
   line-height: 62px;
   margin-left: 200px;
+  font-family: "Unbounded", sans-serif;
 }
 
 .info1 {
@@ -550,6 +576,7 @@ body {
   font-size: 28px;
   line-height: 32px;
   color: white;
+  font-family: "Unbounded", sans-serif;
 }
 
 .info2 {
@@ -557,6 +584,7 @@ body {
   line-height: 30px;
   color: white;
   margin-left: 200px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .menu1 {
@@ -622,6 +650,7 @@ body {
   margin-top: 300px;
   justify-content: center;
   margin-left: 190px;
+  font-family: "Unbounded", sans-serif;
 }
 
 .block3 {
@@ -673,6 +702,7 @@ body {
   line-height: 20px;
   color: black;
   padding: 0 40px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .info3 {
@@ -680,6 +710,7 @@ body {
   line-height: 18px;
   color: #989898;
   padding: 0 40px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .text-logo4 {
@@ -688,6 +719,7 @@ body {
   color: black;
   justify-content: center;
   display: flex;
+  font-family: "Unbounded", sans-serif;
 }
 
 .content5 {
@@ -723,10 +755,12 @@ body {
 .text-logo5 {
   margin-left: 150px;
   margin-top: -30px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .text-info4 {
   margin-left: 150px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .block5 {
@@ -740,6 +774,7 @@ body {
   font-size: 58px;
   line-height: 62px;
   margin-left: 250px;
+  font-family: "Unbounded", sans-serif;
 }
 
 .info-text {
@@ -747,6 +782,7 @@ body {
   font-size: 28px;
   line-height: 38px;
   margin-left: 250px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .info-text2 {
@@ -754,6 +790,7 @@ body {
   font-size: 18px;
   line-height: 30px;
   margin-left: 250px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .table4 {
@@ -821,6 +858,7 @@ body {
   color: black;
   font-size: 48px;
   line-height: 62px;
+  font-family: "Unbounded", sans-serif;
 }
 
 .str-img {
@@ -846,6 +884,7 @@ body {
   color: black;
   font-size: 20px;
   line-height: 28px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .info-text5 {
@@ -855,6 +894,7 @@ body {
   color: black;
   font-size: 20px;
   line-height: 28px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .info-text6 {
@@ -864,6 +904,7 @@ body {
   color: black;
   font-size: 20px;
   line-height: 28px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .bg-img {
@@ -885,6 +926,7 @@ body {
   font-size: 48px;
   line-height: 62px;
   margin-left: 380px;
+  font-family: "Unbounded", sans-serif;
 }
 
 .content8 {
@@ -903,6 +945,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: black;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .info4 {
@@ -911,6 +954,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #989898;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .grid-1 {
@@ -930,6 +974,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: black;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .info5 {
@@ -937,6 +982,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #989898;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .container3 {
@@ -953,18 +999,21 @@ body {
   line-height: 62px;
   color: white;
   margin-top: -1400px;
+  font-family: "Unbounded", sans-serif;
 }
 
 .info6 {
   color: white;
   font-size: 28px;
   line-height: 38px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .info7 {
   color: #9F9F9F;
   font-size: 20px;
   line-height: 30px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .img-car34 {
@@ -987,6 +1036,7 @@ body {
   line-height: 62px;
   margin-left: 830px;
   margin-top: -570px;
+  font-family: "Unbounded", sans-serif;
 }
 
 .info8 {
@@ -994,6 +1044,7 @@ body {
   color: #9F9F9F;
   font-size: 18px;
   line-height: 30px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .tel {
@@ -1003,6 +1054,7 @@ body {
 .text8 {
   color: white;
   margin-top: -30px;
+  font-family: "PP Pangram Sans", sans-serif;
 }
 
 .grid-n {
@@ -1065,6 +1117,7 @@ body {
   color: black;
   font-size: 48px;
   line-height: 62px;
+  font-family: "Unbounded", sans-serif;
 }
 
 .info9 {
@@ -1291,7 +1344,319 @@ body {
   margin-left: 945px;
 }
 
-.mobile {
-  display: none;
-  max-width: 320px;
+@font-face {
+  font-family: "PPPangramSans";
+  src: url(/font/PPPangramSans-Bold.woff) format("woff"), url(/font/PPPangramSans-Bold.woff2) format("woff2"), url(/font/PPPangramSans-CompactExtralightReclined.woff) format("woff"), url(/font/PPPangramSans-CompactExtralightReclined.woff2) format("woff2"), url(/font/PPPangramSans-CompactRegular.woff) format("woff"), url(/font/PPPangramSans-CompactRegular.woff2) format("woff2"), url(/font/PPPangramSans-CompactThinItalic.woff) format("woff"), url(/font/PPPangramSans-CompactThinItalic.woff2) format("woff2"), url(/font/PPPangramSans-CompressedExtrabold.woff) format("woff"), url(/font/PPPangramSans-CompressedExtrabold.woff2) format("woff2"), url(/font/PPPangramSans-CompressedMediumReclined.woff) format("woff"), url(/font/PPPangramSans-CompressedMediumReclined.woff2) format("woff2"), url(/font/PPPangramSans-CondensedThin.woff) format("woff"), url(/font/PPPangramSans-CondensedThin.woff2) format("woff2"), url(/font/PPPangramSans-ExtraboldItalic.woff) format("woff"), url(/font/PPPangramSans-ExtraboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-Light.woff) format("woff"), url(/font/PPPangramSans-Light.woff2) format("woff2"), url(/font/PPPangramSans-Medium.woff) format("woff"), url(/font/PPPangramSans-Medium.woff2) format("woff2"), url(/font/PPPangramSans-NarrowExtraboldItalic.woff) format("woff"), url(/font/PPPangramSans-NarrowExtraboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-NarrowExtralightReclined.woff) format("woff"), url(/font/PPPangramSans-NarrowExtralightReclined.woff2) format("woff2"), url(/font/PPPangramSans-NarrowSemibold.woff) format("woff"), url(/font/PPPangramSans-NarrowSemibold.woff2) format("woff2"), url(/font/PPPangramSans-NarrowSemiboldItalic.woff) format("woff"), url(/font/PPPangramSans-NarrowSemiboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-NarrowExtralightReclined.woff) format("woff"), url(/font/PPPangramSans-NarrowExtralightReclined.woff2) format("woff2"), url(/font/PPPangramSans-NarrowSemibold.woff) format("woff"), url(/font/PPPangramSans-NarrowSemibold.woff2) format("woff2"), url(/font/PPPangramSans-NarrowSemiboldItalic.woff) format("woff"), url(/font/PPPangramSans-NarrowSemiboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-Semibold.woff) format("woff"), url(/font/PPPangramSans-Semibold.woff2) format("woff2"), url(/font/PPPangramSans-SlimExtralight.woff) format("woff"), url(/font/PPPangramSans-SlimExtralight.woff2) format("woff2"), url(/font/PPPangramSans-SlimMediumReclined.woff) format("woff"), url(/font/PPPangramSans-SlimMediumReclined.woff2) format("woff2"), url(/font/PPPangramSans-SlimSemiboldItalic.woff) format("woff"), url(/font/PPPangramSans-SlimSemiboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-Thin.woff) format("woff"), url(/font/PPPangramSans-Thin.woff2) format("woff2");
+  font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 30px;
+  }
+  .header-row {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-row .header-text {
+    display: none;
+  }
+  .header-row .img-soc {
+    display: none;
+  }
+  .arenda {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .header-tel {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .header-tel h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .bth {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .img-2 {
+    display: none;
+  }
+  .container-2 {
+    padding: 10px;
+  }
+  .img-3 {
+    width: 100%;
+    height: auto;
+  }
+  .text-center {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .text-center h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .text-center2 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .hr {
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid #333;
+  }
+  .info-number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .number-1,
+  .number-2,
+  .number-3,
+  .number-4,
+  .number-5 {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+  }
+  .number1,
+  .number2,
+  .number3,
+  .number4,
+  .number5 {
+    text-align: center;
+    font-size: 14px;
+  }
+  .content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .bth-t {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .img-v4,
+  .img-v5 {
+    display: none;
+  }
+  .bth1,
+  .bth2 {
+    margin: 0 10px;
+  }
+  .bth-n {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .grid-g {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .content-grid-g,
+  .content-grid-g2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .check,
+  .check1,
+  .check2 {
+    display: none;
+  }
+  .text-vn,
+  .text-vn2,
+  .text-vn3,
+  .text-vn4,
+  .text-vn5 {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .text-logo2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .bth-s {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .text-logo2 h2 {
+    font-size: 24px;
+  }
+  .bth-s a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .grid-car {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .vector-car1,
+  .vector-car2,
+  .vector-car3,
+  .vector-car4,
+  .vector-car5 {
+    width: 50px;
+    height: 50px;
+  }
+  .bth-a1 p,
+  .bth-a2 p,
+  .bth-a3 p,
+  .bth-a4 p,
+  .bth-a5 p {
+    font-size: 14px;
+  }
+  .img-cursor2 {
+    width: 30px;
+    height: 30px;
+  }
+  .block2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .car1 {
+    width: 100%;
+    height: auto;
+  }
+  .m-img,
+  .d-img {
+    width: 50%;
+    height: auto;
+  }
+  .text-car1 {
+    font-size: 18px;
+  }
+  .center1 {
+    width: 20px;
+    height: auto;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+  .hr2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #000000;
+  }
+  .bth-car1 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  .arenda-car1 {
+    font-size: 12px;
+  }
+  .text {
+    padding: 20px;
+  }
+  .text-info,
+  .text-info2 {
+    font-size: 16px;
+  }
+  .block {
+    padding: 20px;
+    text-align: center;
+  }
+  .logo2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .info1,
+  .info2 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .menu1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .img-11,
+  .img-9 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .text-img {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .text-logo3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .block3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .content-grid1,
+  .content-grid2 {
+    text-align: center;
+  }
+  .text-log {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .info3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .block4 {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .text-logo4 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .content5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .text-logo5 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .text-info4 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .block5 {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .content-6 {
+    text-align: center;
+  }
+  .img-car {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

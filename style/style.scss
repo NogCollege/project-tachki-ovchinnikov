@@ -23,6 +23,7 @@ body {
     color: white;
     margin-right:100px;
     margin-top: -1px;
+    font-family: 'Inter',sans-serif;
 }
 .content-2 {
     align-items: center;
@@ -48,6 +49,7 @@ body {
     color: white;
     justify-content: center;
     padding:30px;
+    font-family: 'PP Pangram Sans', sans-serif;
 }
 .img-soc {
     width: 48px;
@@ -78,6 +80,7 @@ body {
     margin-top: -50px;
     padding: 8px 20px;
     border-radius: 10px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .container-2 {
     max-width: 1920px;
@@ -88,11 +91,13 @@ body {
 }
 .text-center {
     display: flex;
+    text-align: center;
     justify-content: center;
     margin-top: -900px;
-    font-size: 89px;
-    line-height: 91px;
+    font-size: 69px;
+    line-height: 81px;
     color: white;
+    font-family: 'Unbounded',sans-serif;
 }
 .text-center2 {
     display: flex;
@@ -100,6 +105,7 @@ body {
     font-size: 24px;
     line-height: 32px;
     color: white;
+    font-family: 'Unbounded',sans-serif;
 }
 .hr {
     text-align: center;
@@ -124,6 +130,7 @@ body {
 .number1 {
     margin-left: 20px;
     margin-top: -20px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .number-2 {
     margin-right: 70px;
@@ -132,7 +139,7 @@ body {
  .number2 {
      margin-left: 40px;
      margin-top: -35px;
-     
+     font-family: 'PP Pangram Sans',sans-serif;
  }
  .number-3 {
     margin-top: -30px;
@@ -140,6 +147,7 @@ body {
  .number3 {
     margin-left: 50px;
     margin-top: -30px;
+    font-family: 'PP Pangram Sans',sans-serif;
  }
  .number-4 {
     margin-top: -10px;
@@ -148,6 +156,7 @@ body {
  .number4 {
     margin-left: 1250px;
     margin-top: -50px;
+    font-family: 'PP Pangram Sans',sans-serif;
  }
  .number-5 {
     margin-left: 1100px;
@@ -156,12 +165,12 @@ body {
  .number5 {
     margin-left: 860px;
     margin-top: -40px;
+    font-family: 'PP Pangram Sans',sans-serif;
  }
 .content3 {
     display: flex;
     background-color: white;
     width: 1300px;
-    
     padding:100px 0px;
     position: absolute;
     margin-left: 270px;
@@ -245,13 +254,16 @@ body {
 }
 .text-vn2 {
     margin-left: -10px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .text-vn3 {
     padding: 0 40px;
     margin-left: -30px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .text-vn4 {
     margin-left: -4px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .check2 {
     width: 20px;
@@ -260,6 +272,7 @@ body {
 }
 .text-vn5 {
     margin-left: -3px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .bth-n {
     background:linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%) ;
@@ -269,6 +282,7 @@ body {
     border-radius: 10px;
     margin-left: 580px;
     margin-top: 15px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .table {
     display: grid;
@@ -288,6 +302,7 @@ body {
     border-radius: 10px;
     padding-left: 60px;
     margin-left: 270px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .bth-a2 {
     background-color: white;
@@ -297,6 +312,7 @@ body {
     border-radius: 10px;
     margin-left: 20px;
     padding-left: 60px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .bth-a3 {
     background-color: #EAEAEA;
@@ -306,6 +322,7 @@ body {
     border-radius: 10px;
     margin-left: 20px;
     padding-left: 60px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .bth-a4 {
     background-color: white;
@@ -315,6 +332,7 @@ body {
     border-radius: 10px;
     margin-left: 20px;
     padding-left: 60px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .bth-a5 {
     background-color: white;
@@ -324,6 +342,7 @@ body {
     border-radius: 10px;
     margin-left: 20px;
     padding-left: 60px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .vector-car1 {
     width:30px ;
@@ -357,14 +376,14 @@ body {
     width: 43px ;
     height:10px ;
     position: absolute;
-    margin-left: 835px;
+    margin-left: 844px;
     margin-top: 30px;
 }
 .vector-car5 {
     width:33px ;
     height:12px ;
     position: absolute;
-    margin-left: 1020px;
+    margin-left: 1040px;
     margin-top: 30px;
 }
 .img-8 {
@@ -374,13 +393,14 @@ body {
  
 .text-logo2{
     display: block;
-    font-size: 48px;
+    font-size: 37px;
     line-height: 62px;
-    margin-left: 270px;
+    margin-left: 250px;
     margin-top: 500px;
+    font-family: 'Unbounded',sans-serif;
 }
 .bth-s {
-    margin-left: 800px;
+    margin-left: 820px;
     margin-top: -90px;
 }
 .bth-s a {
@@ -389,6 +409,7 @@ body {
     border: 2px solid black;
     padding: 20px 30px;
     border-radius: 10px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .content4 {
     display: grid;
@@ -460,6 +481,7 @@ body {
     justify-content: center;
     margin-top: 80px;
     margin-left: 200px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .text-info2{
     display: block;
@@ -468,6 +490,7 @@ body {
     color: #9F9F9F;
     justify-content: center;
     margin-left: 200px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 
 .logo2 {
@@ -477,6 +500,7 @@ body {
     font-size: 48px;
     line-height: 62px;
     margin-left: 200px;
+    font-family: 'Unbounded',sans-serif;
 }
 .info1 {
     display: flex;
@@ -484,12 +508,14 @@ body {
     font-size: 28px;
     line-height: 32px;
     color: white;
+    font-family: 'Unbounded',sans-serif;
 }
 .info2 {
     font-size: 18px;
     line-height: 30px;
     color: white;
     margin-left: 200px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .menu1 {
     justify-content: center;
@@ -551,6 +577,7 @@ body {
     margin-top: 300px;
     justify-content: center;
     margin-left: 190px;
+    font-family: 'Unbounded',sans-serif;
 }
 .block3 {
     display: grid;
@@ -596,12 +623,14 @@ body {
     line-height: 20px;
     color: black;
     padding: 0 40px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .info3 {
     font-size: 16px;
     line-height: 18px;
     color: #989898;
     padding: 0 40px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .text-logo4 {
     font-size: 48px;
@@ -609,6 +638,7 @@ body {
     color: black;
     justify-content: center;
     display: flex;
+    font-family: 'Unbounded',sans-serif;
 }
 .content5 {
     display: grid;
@@ -640,11 +670,12 @@ body {
 }
 .text-logo5 {
     margin-left: 150px;
-   margin-top: -30px;
-   
+    margin-top: -30px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .text-info4 {
     margin-left: 150px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .block5 {
     margin-top: 100px;
@@ -657,18 +688,21 @@ body {
     font-size: 58px;
     line-height: 62px;
     margin-left: 250px;
+    font-family: 'Unbounded',sans-serif;
 }
 .info-text {
     color: white;
     font-size: 28px;
     line-height: 38px;
     margin-left: 250px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .info-text2 {
     color: #A4A4A4;
     font-size: 18px;
     line-height: 30px;
     margin-left: 250px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 
 .table4 {
@@ -729,6 +763,7 @@ body {
     color: black;
     font-size: 48px;
     line-height: 62px;
+    font-family: 'Unbounded',sans-serif;
 }
 .str-img {
     margin-top: 400px;
@@ -751,6 +786,7 @@ body {
     color: black;
     font-size: 20px;
     line-height: 28px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .info-text5 {
     margin-top: 580px;
@@ -759,6 +795,7 @@ body {
     color: black;
     font-size: 20px;
     line-height: 28px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .info-text6 {
     margin-top: 580px;
@@ -767,6 +804,7 @@ body {
     color: black;
     font-size: 20px;
     line-height: 28px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .bg-img {
     width: 424px;
@@ -786,6 +824,7 @@ body {
     font-size: 48px;
     line-height: 62px;
     margin-left: 380px;
+    font-family: 'Unbounded',sans-serif;
 }
 .content8 {
     display: grid;
@@ -801,6 +840,7 @@ body {
     font-size: 20px;
     line-height: 28px;
     color: black;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .info4 {
     margin-top: 70px;
@@ -808,6 +848,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #989898;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .grid-1 {
     margin-left: 1000px;
@@ -824,12 +865,14 @@ body {
     font-size: 20px;
     line-height: 28px;
     color: black;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .info5 {
     margin-left: 30px;
     font-size: 16px;
     line-height: 26px;
     color: #989898;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .container3 {
     width: 1860px;
@@ -843,16 +886,19 @@ body {
     line-height: 62px;
     color: white;
     margin-top: -1400px;
+    font-family: 'Unbounded',sans-serif;
 }
 .info6 {
     color: white;
     font-size: 28px;
     line-height: 38px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .info7 {
     color: #9F9F9F;
     font-size: 20px;
     line-height: 30px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .img-car34 {
     justify-content: center;
@@ -872,12 +918,14 @@ body {
     line-height: 62px;
     margin-left: 830px;
     margin-top: -570px;
+    font-family: 'Unbounded',sans-serif;
 }
 .info8 {
     margin-left: 830px;
     color: #9F9F9F;
     font-size: 18px;
     line-height: 30px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .tel {
     color: white;
@@ -885,6 +933,7 @@ body {
 .text8 {
     color: white;
     margin-top: -30px;
+    font-family: 'PP Pangram Sans',sans-serif;
 }
 .grid-n {
     display: grid;
@@ -937,6 +986,7 @@ body {
     color: black;
     font-size: 48px;
     line-height: 62px;
+    font-family: 'Unbounded',sans-serif;
 }
 .info9 {
     color: #9F9F9F;
@@ -1135,7 +1185,56 @@ body {
     border: 1px solid #FFFFFF 100%;
     margin-left: 945px;
 }
-
+@font-face {
+    font-family: 'PPPangramSans';
+    src: url(/font/PPPangramSans-Bold.woff) format('woff'),
+    url(/font/PPPangramSans-Bold.woff2) format('woff2'),
+    url(/font/PPPangramSans-CompactExtralightReclined.woff) format('woff'),
+    url(/font/PPPangramSans-CompactExtralightReclined.woff2) format('woff2'),
+    url(/font/PPPangramSans-CompactRegular.woff) format('woff'),
+    url(/font/PPPangramSans-CompactRegular.woff2) format('woff2'),
+    url(/font/PPPangramSans-CompactThinItalic.woff) format('woff'),
+    url(/font/PPPangramSans-CompactThinItalic.woff2) format('woff2'),
+    url(/font/PPPangramSans-CompressedExtrabold.woff) format('woff'),
+    url(/font/PPPangramSans-CompressedExtrabold.woff2) format('woff2'),
+    url(/font/PPPangramSans-CompressedMediumReclined.woff) format('woff'),
+    url(/font/PPPangramSans-CompressedMediumReclined.woff2) format('woff2'),
+    url(/font/PPPangramSans-CondensedThin.woff) format('woff'),
+    url(/font/PPPangramSans-CondensedThin.woff2) format('woff2'),
+    url(/font/PPPangramSans-ExtraboldItalic.woff) format('woff'),
+    url(/font/PPPangramSans-ExtraboldItalic.woff2) format('woff2'),
+    url(/font/PPPangramSans-Light.woff) format('woff'),
+    url(/font/PPPangramSans-Light.woff2) format('woff2'),
+    url(/font/PPPangramSans-Medium.woff) format('woff'),
+    url(/font/PPPangramSans-Medium.woff2) format('woff2'),
+    url(/font/PPPangramSans-NarrowExtraboldItalic.woff) format('woff'),
+    url(/font/PPPangramSans-NarrowExtraboldItalic.woff2) format('woff2'),
+    url(/font/PPPangramSans-NarrowExtralightReclined.woff) format('woff'),
+    url(/font/PPPangramSans-NarrowExtralightReclined.woff2) format('woff2'),
+    url(/font/PPPangramSans-NarrowSemibold.woff) format('woff'),
+    url(/font/PPPangramSans-NarrowSemibold.woff2) format('woff2'),
+    url(/font/PPPangramSans-NarrowSemiboldItalic.woff) format('woff'),
+    url(/font/PPPangramSans-NarrowSemiboldItalic.woff2) format('woff2'),
+    url(/font/PPPangramSans-NarrowExtralightReclined.woff) format('woff'),
+    url(/font/PPPangramSans-NarrowExtralightReclined.woff2) format('woff2'),
+    url(/font/PPPangramSans-NarrowSemibold.woff) format('woff'),
+    url(/font/PPPangramSans-NarrowSemibold.woff2) format('woff2'),
+    url(/font/PPPangramSans-NarrowSemiboldItalic.woff) format('woff'),
+    url(/font/PPPangramSans-NarrowSemiboldItalic.woff2) format('woff2'),
+    url(/font/PPPangramSans-Semibold.woff) format('woff'),
+    url(/font/PPPangramSans-Semibold.woff2) format('woff2'),
+    url(/font/PPPangramSans-SlimExtralight.woff) format('woff'),
+    url(/font/PPPangramSans-SlimExtralight.woff2) format('woff2'),
+    url(/font/PPPangramSans-SlimMediumReclined.woff) format('woff'),
+    url(/font/PPPangramSans-SlimMediumReclined.woff2) format('woff2'),
+    url(/font/PPPangramSans-SlimSemiboldItalic.woff) format('woff'),
+    url(/font/PPPangramSans-SlimSemiboldItalic.woff2) format('woff2'),
+    url(/font/PPPangramSans-Thin.woff) format('woff'),
+    url(/font/PPPangramSans-Thin.woff2) format('woff2'),
+    ;
+    font-weight: 400;
+  }
+  
 @media only screen and (max-width: 600px) {
     .container {
       padding: 30px;
