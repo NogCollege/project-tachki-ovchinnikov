@@ -1235,338 +1235,179 @@ body {
     font-weight: 400;
   }
   
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
     .container {
-      padding: 30px;
+      max-width: 320px;
+    }
+    .img-2{
+        margin-left: 200px;
+        position: absolute;
+        width: 82px;
+        height: 32px;
+        margin-top: 1px;
     }
     .header-row {
          .header-text {
       display: none;
     }
-    .img-soc {
+    .header-tel {
       display: none;
-    }
-      display: block;
-      flex-direction: column;
-      align-items: center;
     }
     .arenda {
       font-size: 20px;
       margin-bottom: 10px;
     }
-   
-    .header-tel {
-      text-align: center;
-      margin-top: 10px;
+   .img-soc {
+        display: none;
     }
-    .header-tel h2 {
-      font-size: 16px;
-      margin-bottom: 5px;
-    }
-    .bth {
-      display: block;
-      margin-top: 5px;
-      font-size: 14px;
-      padding: 5px 10px;
-      background-color: #333;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .img-2 {
-      display: none;
-    }
-    .container-2 {
-      padding: 10px;
-    }
-    .img-3 {
-      width: 100%;
-      height: auto;
-    }
+}
+    
+.container-2 {
+    padding: 20px;
+  }
+  .img-3 {
+    width: 100%;
+    height: auto;
+  }
+  .text-center h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .text-center2 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .hr {
+    margin: 20px 0;
+  }
+  .info-number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .number-1,
+  .number-2,
+  .number-3,
+  .number-4,
+  .number-5 {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .number1,
+  .number2,
+  .number3,
+  .number4,
+  .number5 {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .content3 {
+    padding: 20px;
+  }
+  .text-logo h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .img-v4,
+  .img-v5 {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .bth1,
+  .bth2,
+  .bth-n {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .grid-g {
+    padding: 20px;
+  }
+  .content-grid-g,
+  .content-grid-g2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .check,
+  .check1,
+  .check2 {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .text-vn,
+  .text-vn2,
+  .text-vn3,
+  .text-vn4,
+  .text-vn5 {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .text-logo2 h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .bth-s a {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px;
+  }
+
     .text-center {
-      margin-top: 10px;
-      text-align: center;
-    }
-    .text-center h2 {
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-    .text-center2 {
-      text-align: center;
-      font-size: 14px;
-      margin-top: 5px;
-    }
-    .hr {
-      margin-top: 10px;
-      border: none;
-      border-top: 1px solid #333;
-    }
-    .info-number {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 10px;
-    }
-    .number-1,
-    .number-2,
-    .number-3,
-    .number-4,
-    .number-5 {
-      width: 50px;
-      height: auto;
-      margin: 10px;
-    }
-    .number1,
-    .number2,
-    .number3,
-    .number4,
-    .number5 {
-      text-align: center;
-      font-size: 14px;
-    }
-    .content3 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .text-logo {
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      .bth-t {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
-      }
-      .img-v4,
-      .img-v5 {
-        display: none;
-      }
-      .bth1,
-      .bth2 {
-        margin: 0 10px;
-      }
-      .bth-n {
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      .grid-g {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10px;
-      }
-      .content-grid-g,
-      .content-grid-g2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
-      }
-      .check,
-      .check1,
-      .check2 {
-        display: none;
-      }
-      .text-vn,
-      .text-vn2,
-      .text-vn3,
-      .text-vn4,
-      .text-vn5 {
-        text-align: center;
-        margin-left: 5px;
-        margin-right: 5px;
-      }
-      .text-logo2 {
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      .bth-s {
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      .text-logo2 h2 {
-        font-size: 24px;
-      }
-      .bth-s a {
-        font-size: 16px;
-        padding: 10px 20px;
-      }
-      .grid-car {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-      }
-      .vector-car1,
-      .vector-car2,
-      .vector-car3,
-      .vector-car4,
-      .vector-car5 {
-        width: 50px;
-        height: 50px;
-      }
-      .bth-a1 p,
-      .bth-a2 p,
-      .bth-a3 p,
-      .bth-a4 p,
-      .bth-a5 p {
-        font-size: 14px;
-      }
-      .img-cursor2 {
-        width: 30px;
-        height: 30px;
-      }
-      .block2 {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-      }
-      .car1 {
-        width: 100%;
-        height: auto;
-      }
-      .m-img,
-      .d-img {
-        width: 50%;
-        height: auto;
-      }
-      .text-car1 {
-        font-size: 18px;
-      }
-      .center1 {
-        width: 20px;
-        height: auto;
-        margin-top: -5px;
-        margin-bottom: -5px;
-      }
-      .hr2 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border-top: 1px solid #000000;
-      }
-      .bth-car1 {
-        font-size: 14px;
-        padding: 8px 16px;
-      }
-      .arenda-car1 {
-        font-size: 12px;
-      }
-      .text {
-        padding: 20px;
-      }
-      
-      .text-info,
-      .text-info2 {
-        font-size: 16px;
-      }
-      
-      .block {
-        padding: 20px;
-        text-align: center;
-      }
-      
-      .logo2 {
-        font-size: 24px;
-        margin-top: 20px;
-      }
-      
-      .info1,
-      .info2 {
-        font-size: 14px;
-        margin-top: 10px;
-      }
-      
-      .menu1 {
-        margin-top: 20px;
-        text-align: center;
-      }
-      
-      .img-11,
-      .img-9 {
-        width: 100%;
-        height: auto;
-        margin-top: 20px;
-      }
-      
-      .text-img {
-        font-size: 12px;
-        margin-top: 10px;
-        text-align: center;
-      }
-      
-      .text-logo3 {
-        text-align: center;
-        margin-top: 20px;
-      }
-      
-      .block3 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-        padding: 20px;
-        text-align: center;
-        margin-top: 20px;
-      }
-      
-      .content-grid1,
-      .content-grid2 {
-        text-align: center;
-      }
-      
-      .text-log {
-        font-size: 18px;
-        margin-top: 20px;
-      }
-      
-      .info3 {
-        font-size: 14px;
-        margin-top: 10px;
-      }
-      
-      .block4 {
-        padding: 20px;
-        text-align: center;
-        margin-top: 20px;
-      }
-      
-      .text-logo4 {
-        font-size: 24px;
-        margin-top: 20px;
-      }
-      
-      .content5 {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-        text-align: center;
-        margin-top: 20px;
-      }
-      
-      .text-logo5 {
-        font-size: 18px;
-        margin-top: 20px;
-      }
-      
-      .text-info4 {
-        font-size: 14px;
-        margin-top: 10px;
-      }
-      
-      .block5 {
-        padding: 20px;
-        text-align: center;
-        margin-top: 20px;
-      }
-      
-      .content-6 {
-        text-align: center;
-      }
-      
-      .img-car {
-        width: 100%;
-        height: auto;
-        margin-top: 20px;
-      }
-    }
+            font-size: 32px;
+            line-height: 40px;
+            }
+            .text {
+                padding: 20px;
+              }
+              .text-info,
+              .text-info2 {
+                font-size: 14px;
+                line-height: 18px;
+                margin-bottom: 10px;
+              }
+              .block {
+                padding: 20px;
+                text-align: center;
+              }
+              .logo2 {
+                font-size: 18px;
+                margin-bottom: 10px;
+              }
+              .info1,
+              .info2 {
+                font-size: 14px;
+                line-height: 18px;
+                margin-bottom: 10px;
+              }
+              .menu1 {
+                padding: 20px;
+                text-align: center;
+              }
+              .bth3,
+              .bth4,
+              .bth5 {
+                font-size: 14px;
+                margin-bottom: 5px;
+              }
+              .img-11,
+              .img-9 {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+              }
+              .text-img {
+                font-size: 12px;
+                line-height: 16px;
+                margin-bottom: 10px;
+              }
+            }
     
-    
-  
