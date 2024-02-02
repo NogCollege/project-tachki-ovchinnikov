@@ -1344,11 +1344,6 @@ body {
   margin-left: 945px;
 }
 
-@font-face {
-  font-family: "PPPangramSans";
-  src: url(/font/PPPangramSans-Bold.woff) format("woff"), url(/font/PPPangramSans-Bold.woff2) format("woff2"), url(/font/PPPangramSans-CompactExtralightReclined.woff) format("woff"), url(/font/PPPangramSans-CompactExtralightReclined.woff2) format("woff2"), url(/font/PPPangramSans-CompactRegular.woff) format("woff"), url(/font/PPPangramSans-CompactRegular.woff2) format("woff2"), url(/font/PPPangramSans-CompactThinItalic.woff) format("woff"), url(/font/PPPangramSans-CompactThinItalic.woff2) format("woff2"), url(/font/PPPangramSans-CompressedExtrabold.woff) format("woff"), url(/font/PPPangramSans-CompressedExtrabold.woff2) format("woff2"), url(/font/PPPangramSans-CompressedMediumReclined.woff) format("woff"), url(/font/PPPangramSans-CompressedMediumReclined.woff2) format("woff2"), url(/font/PPPangramSans-CondensedThin.woff) format("woff"), url(/font/PPPangramSans-CondensedThin.woff2) format("woff2"), url(/font/PPPangramSans-ExtraboldItalic.woff) format("woff"), url(/font/PPPangramSans-ExtraboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-Light.woff) format("woff"), url(/font/PPPangramSans-Light.woff2) format("woff2"), url(/font/PPPangramSans-Medium.woff) format("woff"), url(/font/PPPangramSans-Medium.woff2) format("woff2"), url(/font/PPPangramSans-NarrowExtraboldItalic.woff) format("woff"), url(/font/PPPangramSans-NarrowExtraboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-NarrowExtralightReclined.woff) format("woff"), url(/font/PPPangramSans-NarrowExtralightReclined.woff2) format("woff2"), url(/font/PPPangramSans-NarrowSemibold.woff) format("woff"), url(/font/PPPangramSans-NarrowSemibold.woff2) format("woff2"), url(/font/PPPangramSans-NarrowSemiboldItalic.woff) format("woff"), url(/font/PPPangramSans-NarrowSemiboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-NarrowExtralightReclined.woff) format("woff"), url(/font/PPPangramSans-NarrowExtralightReclined.woff2) format("woff2"), url(/font/PPPangramSans-NarrowSemibold.woff) format("woff"), url(/font/PPPangramSans-NarrowSemibold.woff2) format("woff2"), url(/font/PPPangramSans-NarrowSemiboldItalic.woff) format("woff"), url(/font/PPPangramSans-NarrowSemiboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-Semibold.woff) format("woff"), url(/font/PPPangramSans-Semibold.woff2) format("woff2"), url(/font/PPPangramSans-SlimExtralight.woff) format("woff"), url(/font/PPPangramSans-SlimExtralight.woff2) format("woff2"), url(/font/PPPangramSans-SlimMediumReclined.woff) format("woff"), url(/font/PPPangramSans-SlimMediumReclined.woff2) format("woff2"), url(/font/PPPangramSans-SlimSemiboldItalic.woff) format("woff"), url(/font/PPPangramSans-SlimSemiboldItalic.woff2) format("woff2"), url(/font/PPPangramSans-Thin.woff) format("woff"), url(/font/PPPangramSans-Thin.woff2) format("woff2");
-  font-weight: 400;
-}
 @media only screen and (max-width: 320px) {
   .container {
     max-width: 320px;
@@ -1360,25 +1355,120 @@ body {
     height: 32px;
     margin-top: 1px;
   }
-  .header-row .header-text {
+  .header-text {
     display: none;
   }
-  .header-row .header-tel {
+  .header-tel {
     display: none;
   }
-  .header-row .arenda {
+  .arenda {
     font-size: 20px;
     margin-bottom: 10px;
   }
-  .header-row .img-soc {
+  .img-soc {
     display: none;
   }
-  .container-2 .img-3 {
-    width: 305px;
-    height: 470px;
+  .container-2 {
+    padding: 20px;
+  }
+  .img-3 {
+    width: 50%;
+    height: auto;
+  }
+  .text-center h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .text-center2 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .hr {
+    margin: 20px 0;
+  }
+  .info-number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .number-1,
+  .number-2,
+  .number-3,
+  .number-4,
+  .number-5 {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .number1,
+  .number2,
+  .number3,
+  .number4,
+  .number5 {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .content3 {
+    padding: 20px;
+  }
+  .text-logo h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .img-v4,
+  .img-v5 {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .bth1,
+  .bth2,
+  .bth-n {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .grid-g {
+    padding: 20px;
+  }
+  .content-grid-g,
+  .content-grid-g2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .check2 {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .text-vn,
+  .text-vn2,
+  .text-vn3,
+  .text-vn4,
+  .text-vn5 {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .text-logo2 h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .bth-s a {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px;
   }
   .text-center {
     font-size: 32px;
     line-height: 40px;
+  }
+  .text {
+    padding: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
