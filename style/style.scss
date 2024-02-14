@@ -3,7 +3,6 @@ body {
     background-color:whitesmoke;
 }
 .container {
-    
     background-color: #181818;
     max-width: 1920px;
     max-height: 125px;
@@ -15,7 +14,7 @@ body {
     padding: 49px 12px;
     
 }
-.arenda {
+.logo-menu{
     margin-right: 10px;
     justify-content: center;
     font-size: 22px;
@@ -82,7 +81,7 @@ body {
     border-radius: 10px;
     font-family: 'PP Pangram Sans',sans-serif;
 }
-.container-2 {
+.promo {
     max-width: 1920px;
 }
 .img-3 {
@@ -167,7 +166,7 @@ body {
     margin-top: -40px;
     font-family: 'PP Pangram Sans',sans-serif;
  }
-.content3 {
+.arenda-online {
     display: flex;
     background-color: white;
     width: 1300px;
@@ -291,8 +290,6 @@ body {
 }
 .grid-car {
     display: flex;
-    
-    
 }
 .bth-a1 {
     background-color: black;
@@ -348,21 +345,21 @@ body {
     width:30px ;
     height:12px ;
     position: absolute;
-    margin-left: 284px;
+    margin-left: 294px;
     margin-top: 27px;
 }
 .vector-car2 {
     width:36px ;
     height:10px ;
     position: absolute;
-    margin-left: 480px;
+    margin-left: 498px;
     margin-top: 30px;
 }
 .vector-car3 {
     width:36px ;
     height:10px ;
     position: absolute;
-    margin-left: 660px;
+    margin-left: 678px;
     margin-top: 30px;
 }
 .img-cursor2 {
@@ -376,14 +373,14 @@ body {
     width: 43px ;
     height:10px ;
     position: absolute;
-    margin-left: 844px;
+    margin-left: 864px;
     margin-top: 30px;
 }
 .vector-car5 {
     width:33px ;
     height:12px ;
     position: absolute;
-    margin-left: 1040px;
+    margin-left: 1070px;
     margin-top: 30px;
 }
 .img-8 {
@@ -391,7 +388,7 @@ body {
     margin-top: -90px;
 }
  
-.text-logo2{
+.logo-avto{
     display: block;
     font-size: 37px;
     line-height: 62px;
@@ -400,8 +397,10 @@ body {
     font-family: 'Unbounded',sans-serif;
 }
 .bth-s {
-    margin-left: 820px;
+    margin-left: 620px;
     margin-top: -90px;
+    font-size: 13px;
+    line-height: 20px;
 }
 .bth-s a {
     text-decoration: none;
@@ -570,7 +569,7 @@ body {
     
     
 }
-.text-logo3 {
+.logo-premium {
     font-size: 48px;
     line-height: 62px;
     color: black;
@@ -579,7 +578,7 @@ body {
     margin-left: 190px;
     font-family: 'Unbounded',sans-serif;
 }
-.block3 {
+.premium-rental {
     display: grid;
     grid-template-columns: repeat(2,900px);
     justify-content: center;
@@ -677,7 +676,7 @@ body {
     margin-left: 150px;
     font-family: 'PP Pangram Sans',sans-serif;
 }
-.block5 {
+.discounts {
     margin-top: 100px;
 }
 
@@ -705,7 +704,7 @@ body {
     font-family: 'PP Pangram Sans',sans-serif;
 }
 
-.table4 {
+.block {
     margin-left: 1100px;
     margin-top: -600px;
     justify-content: center;
@@ -754,7 +753,7 @@ body {
     height: 40px;
 }
 
-.block6 {
+.our-services {
     margin-top: 200px;
 }
 
@@ -1055,7 +1054,7 @@ body {
     margin-left: 886px;
     position: absolute;
 }
-.block10 {
+.last-block {
     background-color: black;
     width: 1460px;
     height: 534px;
@@ -1317,6 +1316,3 @@ body {
 }
  
 }
-    
-
-    
