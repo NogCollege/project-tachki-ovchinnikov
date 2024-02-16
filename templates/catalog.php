@@ -9,7 +9,7 @@ if ($result->num_rows > 0) {
    
     while ($row = $result->fetch_assoc()) {
         echo '<div class="car-card">';
-        echo '<img src="car_image.jpg" alt="Car Image">'; 
+        echo '<img src="templates/img.image 22.png" alt="Car Image">'; 
         echo '<h3>' . $row['brand'] . ' ' . $row['model'] . '</h3>';
         echo '<p>Цена: ' . $row['price'] . '</p>';
        
