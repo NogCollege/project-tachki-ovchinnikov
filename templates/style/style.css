@@ -15,7 +15,7 @@ body {
 }
 
 .logo-menu {
-  margin-right: 10px;
+  margin-right: 15px;
   justify-content: center;
   font-size: 22px;
   line-height: 28px;
@@ -51,7 +51,7 @@ body {
   text-decoration: none;
   color: white;
   justify-content: center;
-  padding: 30px;
+  padding: 20px;
   font-family: "PP Pangram Sans", sans-serif;
 }
 
@@ -474,7 +474,15 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 500px);
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 50px;
+  display: block;
+  width: 424px;
+  height: 404px;
+  background-color: white;
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 24px;
+  border-radius: 10px;
 }
 
 .grid1 {
