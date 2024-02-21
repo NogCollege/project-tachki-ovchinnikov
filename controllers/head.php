@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="templates/style/style.scss">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="templates/style/style.css">
     <link rel="stylesheet" href="templates\stylesheet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
