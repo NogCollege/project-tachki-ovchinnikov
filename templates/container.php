@@ -10,9 +10,9 @@
                         <li><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
-                <img class="img-soc" src="./img/soc.png" alt="">
+                <img class="img-soc" src="./templates/img/soc.png" alt="">
                 <header class="header-tel"><h2>+7 (499) 110-20-47</h2>
                     <a class="bth" href="#">Заказать звонок</a>
                 </header>
-                <img class="img-2" src="./img/Group 72.png" alt=""></header>
+                <img class="img-2" src="./templates/img/Group 72.png" alt=""></header>
            </header>

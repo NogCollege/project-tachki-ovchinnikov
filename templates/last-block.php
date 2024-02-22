@@ -8,12 +8,12 @@
                            </div>
                            </div>
                             <p class="text-y">г. Ногинск, ул. Ремесленная, д. 1178А</p>
-                            <img class="img-m" src="./img/Vector.png" alt="">
+                            <img class="img-m" src="./templates/img/Vector.png" alt="">
                             <p class="text-y2">info@арендатачек.рф</p>
-                            <img class="img-m2" src="./img/Vector (1).png" alt="">
+                            <img class="img-m2" src="./templates/img/Vector (1).png" alt="">
                             <div class="img-soc3">
                             <img src="./img/soc.png" alt=""></div>
-                            <img class="img-cursor" src="./img/cursor.png" alt="">
+                            <img class="img-cursor" src="./templates/img/cursor.png" alt="">
                             <div class="grid-b">
                                 <div class="logo-grid">
                                     <h2 class="logo13">Клиентам</h2>

@@ -15,7 +15,7 @@ body {
 }
 
 .logo-menu {
-  margin-right: 10px;
+  margin-right: 15px;
   justify-content: center;
   font-size: 22px;
   line-height: 28px;
@@ -51,7 +51,7 @@ body {
   text-decoration: none;
   color: white;
   justify-content: center;
-  padding: 30px;
+  padding: 20px;
   font-family: "PP Pangram Sans", sans-serif;
 }
 
@@ -347,6 +347,13 @@ body {
   margin-left: 270px;
   font-family: "PP Pangram Sans", sans-serif;
 }
+.bth-a1 img {
+  width: 30px;
+  height: 12px;
+  position: absolute;
+  margin-left: -50px;
+  padding-top: 3px;
+}
 
 .bth-a2 {
   background-color: white;
@@ -357,6 +364,13 @@ body {
   margin-left: 20px;
   padding-left: 60px;
   font-family: "PP Pangram Sans", sans-serif;
+}
+.bth-a2 img {
+  width: 36px;
+  height: 10px;
+  position: absolute;
+  margin-left: -50px;
+  padding-top: 3px;
 }
 
 .bth-a3 {
@@ -369,6 +383,13 @@ body {
   padding-left: 60px;
   font-family: "PP Pangram Sans", sans-serif;
 }
+.bth-a3 img {
+  width: 36px;
+  height: 10px;
+  position: absolute;
+  margin-left: -50px;
+  padding-top: 3px;
+}
 
 .bth-a4 {
   background-color: white;
@@ -379,6 +400,13 @@ body {
   margin-left: 20px;
   padding-left: 60px;
   font-family: "PP Pangram Sans", sans-serif;
+}
+.bth-a4 img {
+  width: 43px;
+  height: 10px;
+  position: absolute;
+  margin-left: -50px;
+  padding-top: 3px;
 }
 
 .bth-a5 {
@@ -391,53 +419,12 @@ body {
   padding-left: 60px;
   font-family: "PP Pangram Sans", sans-serif;
 }
-
-.vector-car1 {
-  width: 30px;
-  height: 12px;
-  position: absolute;
-  margin-left: 294px;
-  margin-top: 27px;
-}
-
-.vector-car2 {
-  width: 36px;
-  height: 10px;
-  position: absolute;
-  margin-left: 498px;
-  margin-top: 30px;
-}
-
-.vector-car3 {
-  width: 36px;
-  height: 10px;
-  position: absolute;
-  margin-left: 678px;
-  margin-top: 30px;
-}
-
-.img-cursor2 {
-  width: 17px;
-  height: 22px;
-  margin-top: 60px;
-  margin-left: 770px;
-  position: absolute;
-}
-
-.vector-car4 {
-  width: 43px;
-  height: 10px;
-  position: absolute;
-  margin-left: 864px;
-  margin-top: 30px;
-}
-
-.vector-car5 {
+.bth-a5 img {
   width: 33px;
   height: 12px;
   position: absolute;
-  margin-left: 1070px;
-  margin-top: 30px;
+  margin-left: -50px;
+  padding-top: 3px;
 }
 
 .img-8 {
@@ -455,37 +442,35 @@ body {
 }
 
 .bth-s {
-  margin-left: 620px;
-  margin-top: -90px;
-  font-size: 13px;
-  line-height: 20px;
-}
-
-.bth-s a {
+  margin-left: 580px;
   text-decoration: none;
   color: black;
   border: 2px solid black;
   padding: 20px 30px;
   border-radius: 10px;
   font-family: "PP Pangram Sans", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: -110px;
+  position: absolute;
 }
 
 .content4 {
   display: grid;
   grid-template-columns: repeat(3, 500px);
   justify-content: center;
-  margin-top: 40px;
 }
 
 .grid1 {
-  display: block;
-  width: 424px;
-  height: 404px;
-  background-color: white;
-  text-align: center;
-  margin-top: 50px;
-  padding: 0 24px;
+  display: flex;
+  width: 469px;
+  height: 443px;
+  background-color: #FFFFFF;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .car1 {
@@ -493,10 +478,10 @@ body {
 }
 
 .m-img {
-  width: 59px;
-  height: 27px;
-  margin-left: 380px;
-  margin-top: 290x;
+  padding-top: -50px;
+  padding: 10px 5px;
+  width: 16px;
+  height: 40px;
 }
 
 .d-img {
@@ -509,12 +494,20 @@ body {
 .text-car1 {
   font-size: 20px;
   line-height: 20px;
-  color: black;
-  margin-right: 180px;
+  color: white;
+  padding-left: 30px;
+  padding-top: 50px;
+  position: absolute;
 }
 
 .center1 {
-  margin-right: 90px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 220px;
+  padding-left: 40px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  color: white;
 }
 
 .hr2 {
@@ -523,19 +516,29 @@ body {
   margin-top: 20px;
 }
 
-.bth-car1 {
-  background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
-  text-decoration: none;
+.bth-cost {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-left: 40px;
+  -moz-column-gap: 110px;
+       column-gap: 110px;
+  font-family: "PP Pangram Sans";
+}
+.bth-cost button {
+  width: 135px;
+  height: 40px;
   color: white;
-  padding: 12px 22px;
-  margin-right: 150px;
-  border-radius: 20px;
-  margin-top: 20px;
+  border-radius: 6px;
+  border: solid 0px;
+  font-family: "PP Pangram Sans";
+  font-size: 12px;
+  background: linear-gradient(to top right, #9F7437, #E3D293);
 }
 
 .arenda-car1 {
-  margin-left: 170px;
-  margin-top: -20px;
+  margin-left: 110px;
+  margin-top: 10px;
   color: black;
   font-size: 20px;
   line-height: 20px;

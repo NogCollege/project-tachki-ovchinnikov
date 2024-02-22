@@ -4,12 +4,11 @@
    <?php require 'controllers/head.php'; ?>
 </head>
 <body>
+    <? require 'controllers/creat-folder.php' ?>
     <?php require 'templates/container.php'; ?>
     <?php require 'templates/promo.php'; ?>
     <?php require 'templates/arenda-online.php'; ?>
-    <?php require 'templates/logo-avto.php'; ?>
     <?php require 'templates/table.php'; ?>
-    <?php require 'templates/catalog.php'; ?>
     <?php require 'templates/text.php'; ?>
     <?php require 'templates/rent-car.php'; ?>
     <?php require 'templates/logo-premium.php'; ?>
@@ -22,6 +21,6 @@
     <?php require 'templates/grid-g.php'; ?>
     <?php require 'templates/questions.php'; ?>
     <?php require 'templates/last-block.php'; ?>
-    <?php require 'controllers/connect.php'; ?>
+    <?php require 'javascript.php'; ?>
 </body>
 </html>
