@@ -1,20 +1,13 @@
 <div class="logo-avto"><h2>Наш автопарк</h2>
-        <div class="bth-s">
-            <a href="#">Смотреть все</a></div>
+        <button class="bth-s">Смотреть все</button>
         </div>
 <div class="table">
         <div class="grid-car">
-            <img class="vector-car1" src="" alt="">
-            <a class="bth-a1" href=""><p class="text-car" >Внедорожники</p></a>
-            <img class="vector-car2" src="./templates/img/Vector (7).png" alt="">
-            <a class="bth-a2" href=""><p class="text-car" >Бизнес</p></a>
-            <img class="vector-car3" src="./templates/img/Vector (8).png" alt="">
-            <a class="bth-a3" href=""><p class="text-car" >Спорткар</p></a>
-            <img class="img-cursor2" src="./templates/img/cursor.png" alt="">
-            <img class="vector-car4" src="./templates/img/Group 47.png" alt="">
-            <a class="bth-a4" href=""><p class="text-car" >Премиум</p></a>
-            <img class="vector-car5" src="./templates/img/Vector (9).png" alt="">
-            <a class="bth-a5" href=""><p class="text-car" >Комфорт</p></a>
+        <button class="bth-a1 polcat" data-category="suv"><img  src="./templates/img/Vector (6).png" alt="" />Внедорожники</button>
+        <button class="bth-a2 polcat" data-category="business"><img  src="./templates/img/Vector (7).png" alt="" />Бизнес</button>
+        <button class="bth-a3 polcat" data-category="sport"><img  src="./templates/img/Vector (8).png" alt="" />Спорткар</button>
+        <button class="bth-a4 polcat" data-category="premium"><img  src="./templates/img/Group 47.png" alt="" />Премиум</button>
+        <button class="bth-a5 polcat" data-category="comfort"><img  src="./templates/img/Vector (9).png" alt="" />Комфорт</button>
             </div>
           </div>
           <?php 
@@ -35,17 +28,17 @@
                         $result = '';
                         $result .= '
                         <div class="grid1 ' . $elem['categoria'] .'">
-                        <div class="">
+                        <div class="m-img">
                         <img src="'.$folderPath.'/main.jpg" alt="">
                         </div>';
-                        $result .= ' <h4>'. $elem['fullname'] . ', '. $elem['gorod'] . '</h4>';
-                        $result .= '<div class="">
+                        $result .= ' <h4 class="text-car1">'. $elem['fullname'] . ', '. $elem['gorod'] . '</h4>';
+                        $result .= '<div class="center1">
                             <p> <img src="templates/img/Vector (17).png" alt="">'. $elem['volume'] . ',' . $elem['Engine Type'] . '</p>
-                            <p class="center1"> <img src="templates/img/Vector (18).png" alt="">'. $elem['Horsepower'] .'</p>
+                            <p class=""> <img src="templates/img/Vector (18).png" alt="">'. $elem['Horsepower'] .'</p>
                         </div>';
-                        $result .= '<hr class="h2" >';
-                        $result .= '<div class="">
-                            <button class="bth-car1">Забронировать</button><p>от <span class="arenda-car1">'.$elem['Cost-average'].'</span>руб/сут.</p>
+                        $result .= '<hr class="hr2" >';
+                        $result .= '<div class="bth-cost">
+                            <button class="">Забронировать</button><p>от <span class="">'.$elem['Cost-average'].'</span>руб/сут.</p>
                         </div>
                         </div>';
                         
@@ -55,3 +48,54 @@
                     echo '</div>';
         
                 ?>
+                <script> 
+    let buttons = document.querySelectorAll('.polcat')
+
+    let category = new Map([
+        ['suv', document.querySelectorAll('.Внедорожник')],
+        ['business', document.querySelectorAll('.Бизнес')],
+        ['sport', document.querySelectorAll('.Спорт')],
+        ['premium', document.querySelectorAll('.Премиум')],
+        ['comfort', document.querySelectorAll('.Комфорт')]
+    ]);
+
+    
+    let allCards = document.querySelectorAll('.grid1')
+
+    for (let button of buttons) {
+        button.addEventListener("click", function() {
+            if (!button.classList.contains("butact")) {
+                console.log("Нажатие на неактивную кнопку")
+            buttons.forEach((button) => {
+                button.classList.remove("butact") // убираем класс у всех кнопок
+                this.classList.add("butact") // добавляем класс к нажатой кнопке
+            })
+            DisplayCards(this.dataset.category)
+            } else {
+                console.log("Нажатие на активную кнопку")
+            }
+        })
+    }
+
+
+    function DisplayCards(cat) {
+        allCards.forEach((card) => {
+            card.style.display = 'none'
+        })
+        category.get(cat).forEach((card) => {
+            card.style.display = 'block'
+        })
+    }
+    
+    document.querySelector('.bth-s').addEventListener('click', function(evt) {
+        evt.preventDefault();
+        allCards.forEach((card) => {
+            card.style.display = 'block';
+        })
+        buttons.forEach((button) => {
+            button.classList.remove("butact")
+        })
+    })
+
+    
+</script>
