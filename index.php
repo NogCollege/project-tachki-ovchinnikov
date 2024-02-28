@@ -21,7 +21,6 @@
     <?php require 'templates/grid-g.php'; ?>
     <?php require 'templates/questions.php'; ?>
     <?php require 'templates/last-block.php'; ?>
-    <?php require 'admin.php'; ?>
-    <?php require 'polcat.php'; ?>
+    <?php require 'javascript.php'; ?>
 </body>
 </html>
