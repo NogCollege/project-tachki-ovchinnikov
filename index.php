@@ -21,6 +21,6 @@
     <?php require 'templates/grid-g.php'; ?>
     <?php require 'templates/questions.php'; ?>
     <?php require 'templates/last-block.php'; ?>
-    <?php require 'javascript.php'; ?>
+    
 </body>
 </html>

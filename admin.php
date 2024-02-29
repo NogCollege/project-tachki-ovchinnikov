@@ -1,6 +1,58 @@
 <table>
     <?php 
     require_once("controllers/connect.php");
+
+    if (!empty($_POST)) {
+        $nazvanie = $_POST["nazvanie"];
+        $gorod = $_POST["gorod"];
+        $categoria = $_POST["categoria"];
+        $fullname = $_POST["fullname"];
+        $god= $_POST["Year of release"];
+        $volume = $_POST["volume"];
+        $Horsepower =($_POST["Horsepower"]);
+        $max = $_POST["Cost-max"];
+        $mid = $_POST["Cost-average"];
+        $min = $_POST["Cost-min"];
+        $opisanie = $_POST["opisanie"];
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     $query="SELECT * FROM catalog";
     $result=mysqli_query($link,$query) or die(mysqli_error($link));
     for($data = []; $row = mysqli_fetch_assoc($result); 
@@ -30,5 +82,5 @@
 </table>
 
 
-<a href=”?delete=$id”>
-    <?require_once ('controllers/creat-folder.php');?>
+
+    
