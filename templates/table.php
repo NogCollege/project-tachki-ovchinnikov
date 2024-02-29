@@ -3,11 +3,11 @@
         </div>
 <div class="table">
         <div class="grid-car">
-        <button class="bth-a1" data-category="suv"><img  src="./templates/img/Vector (6).png" alt="" />Внедорожники</button>
-        <button class="bth-a2" data-category="business"><img  src="./templates/img/Vector (7).png" alt="" />Бизнес</button>
-        <button class="bth-a3" data-category="sport"><img  src="./templates/img/Vector (8).png" alt="" />Спорткар</button>
-        <button class="bth-a4" data-category="premium"><img  src="./templates/img/Group 47.png" alt="" />Премиум</button>
-        <button class="bth-a5" data-category="comfort"><img  src="./templates/img/Vector (9).png" alt="" />Комфорт</button>
+        <button class="bth-a1 polcat" data-category="suv"><img  src="./templates/img/Vector (6).png" alt="" />Внедорожники</button>
+        <button class="bth-a2 polcat" data-category="business"><img  src="./templates/img/Vector (7).png" alt="" />Бизнес</button>
+        <button class="bth-a3 polcat" data-category="sport"><img  src="./templates/img/Vector (8).png" alt="" />Спорткар</button>
+        <button class="bth-a4 polcat" data-category="premium"><img  src="./templates/img/Group 47.png" alt="" />Премиум</button>
+        <button class="bth-a5 polcat" data-category="comfort"><img  src="./templates/img/Vector (9).png" alt="" />Комфорт</button>
             </div>
           </div>
           <?php 
@@ -27,7 +27,7 @@
 
                         $result = '';
                         $result .= '
-                        <div class="grid1" ' . $elem['categoria'] .'>
+                        <div class="grid1 ' . $elem['categoria'] .'">
                         <div class="m-img">
                         <img src="'.$folderPath.'/main.jpg" alt="">
                         </div>';
@@ -38,7 +38,7 @@
                         </div>';
                         $result .= '<hr class="hr2" >';
                         $result .= '<div class="bth-cost">
-                            <button class="">Забронировать</button><p>от <span class="">'.$elem['Cost-average'].'</span>руб/сут.</p>
+                            <a href="polcat.php?id='.$elem['id'] .'"><button class="">Забронировать</button></a><p>от <span class="">'.$elem['Cost-max'].'</span>руб/сут.</p>
                         </div>
                         </div>';
                         
@@ -49,18 +49,18 @@
         
                 ?>
                 <script> 
-    let buttons = document.querySelectorAll('.button-cat')
+    let buttons = document.querySelectorAll('.polcat')
 
     let category = new Map([
         ['suv', document.querySelectorAll('.Внедорожник')],
         ['business', document.querySelectorAll('.Бизнес')],
-        ['sport', document.querySelectorAll('.Спорткар')],
+        ['sport', document.querySelectorAll('.Спорт')],
         ['premium', document.querySelectorAll('.Премиум')],
         ['comfort', document.querySelectorAll('.Комфорт')]
     ]);
 
     
-    let allCards = document.querySelectorAll('.cartoc')
+    let allCards = document.querySelectorAll('.grid1')
 
     for (let button of buttons) {
         button.addEventListener("click", function() {
@@ -87,7 +87,7 @@
         })
     }
     
-    document.querySelector('.sect2-he button').addEventListener('click', function(evt) {
+    document.querySelector('.bth-s').addEventListener('click', function(evt) {
         evt.preventDefault();
         allCards.forEach((card) => {
             card.style.display = 'block';

@@ -648,6 +648,124 @@ body {
   margin-top: -20px;
 }
 
+.page {
+  text-align: start;
+  font-family: "PP Pangram Sans";
+  padding-bottom: 10px;
+  font-size: 48px;
+}
+
+.car-info {
+  padding-left: 1150px;
+  margin-top: -800px;
+}
+
+.slider-container {
+  position: relative;
+  width: 842px;
+  height: 800px;
+  margin-left: 120px;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.stoim {
+  background-color: #FFFFFF;
+  color: #1D1D1D;
+  width: 592px;
+  height: 440px;
+  border-radius: 20px;
+  margin-left: -520px;
+}
+.stoim h1 {
+  font-size: 36px;
+  font-family: "PP Pangram Sans";
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.arend {
+  width: 300px;
+  height: 60px;
+  color: white;
+  border-radius: 6px;
+  border: solid 0px;
+  font-family: "PP Pangram Sans";
+  font-size: 12px;
+  background: linear-gradient(to top right, #9F7437, #E3D293);
+  padding: 0px 40px;
+  margin-left: 150px;
+}
+
+.inf-car {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  font-family: "PP Pangram Sans";
+}
+.inf-car img {
+  padding-right: 10px;
+}
+
+.benz {
+  width: 25px;
+  height: 18px;
+}
+
+.stoimost {
+  font-family: "PP Pangram Sans";
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.stoinf {
+  font-size: 36px;
+  font-family: "PP Pangram Sans";
+  padding-bottom: 0px;
+  margin-left: -480px;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.prev-button {
+  left: 10px;
+  margin-top: -70px;
+}
+
+.next-button {
+  right: 400px;
+  margin-top: -70px;
+}
+
+.opisanie {
+  font-family: "PP Pangram Sans";
+  font-size: 24px;
+  color: #1D1D1D;
+  width: 592px;
+  margin-left: 100px;
+  margin-top: -300px;
+  position: absolute;
+}
+
 .logo-premium {
   font-size: 48px;
   line-height: 62px;
