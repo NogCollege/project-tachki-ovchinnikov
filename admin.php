@@ -7,14 +7,25 @@
         $gorod = $_POST["gorod"];
         $categoria = $_POST["categoria"];
         $fullname = $_POST["fullname"];
-        $god= $_POST["Year of release"];
+        $god= $_POST["god"];
         $volume = $_POST["volume"];
+        $dvigatel = $_POST["dvigatel"];
         $Horsepower =($_POST["Horsepower"]);
-        $max = $_POST["Cost-max"];
-        $mid = $_POST["Cost-average"];
-        $min = $_POST["Cost-min"];
+        $max = $_POST["max"];
+        $mid = $_POST["average"];
+        $min = $_POST["min"];
         $opisanie = $_POST["opisanie"];
+
+        $query = "INSERT INTO catalog Set nazvanie='$nazvanie',
+        gorod='$gorod',fullname='$fullname',god='$god',dvigatel='$dvigatel',horsepower='$horsepower',max='$max',mid='$average',min='$min',opisanie='$opisanie'";
+         mysqli_query($link, $query) or die(mysqli_error($link));
+          require ('controllers/creat-folder.php'); 
     }
+    if (isset($_GET['delet'])) {
+        $delet = $_GET['delet'];
+        $query = "INSERT INTO 'delete'  SELECT * FROM 'catalog'WHERE 'id'=$delet";
+        $query = "DELETE FROM 'catalog' WHERE 'id'=$delet";
+        
 
 
 

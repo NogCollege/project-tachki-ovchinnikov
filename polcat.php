@@ -49,17 +49,17 @@
                 <button class="next-button" aria-label="Посмотреть следующий слайд">&gt;</button>
         </div>
         <div class= "car-info">
-            <p class= "stoinf"><?=$data['Cost-max']?>₽</p>
+            <p class= "stoinf"><?=$data['max']?>₽</p>
             <div class="stoim">
                 <h1>Стоимость аренды</h1>
-                <p class="stoimost">Максимальная цена аренды: <span><?=$data['Cost-max']?></span></p>
-                <p class="stoimost">Средняя цена аренды: <span><?=$data['Cost-average']?></span> </p>
-                <p class="stoimost">Минимальная цена аренды: <span><?=$data['Cost-min']?></span> </p>
+                <p class="stoimost">Максимальная цена аренды: <span><?=$data['max']?></span></p>
+                <p class="stoimost">Средняя цена аренды: <span><?=$data['average']?></span> </p>
+                <p class="stoimost">Минимальная цена аренды: <span><?=$data['min']?></span> </p>
                 <div class="inf-car">
                     <p><?=$data['gorod'] ?></p>
                     <p><img src="templates/img/Vector (17).png" alt=""><?=$data['volume'] ?></p>
                     <p><img src="templates/img/Vector (18).png" alt=""><?=$data['Horsepower'] ?></p>
-                    <p><img class="benz" src="templates/img/Vector (17).png" alt=""><?=$data['Engine Type'] ?></p>
+                    <p><img class="benz" src="templates/img/Vector (17).png" alt=""><?=$data['dvigatel'] ?></p>
                 </div>
                 <a href="index.php"> <button class="arend">Арендовать</button></a>
             </div>

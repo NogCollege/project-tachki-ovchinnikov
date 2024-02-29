@@ -33,12 +33,12 @@
                         </div>';
                         $result .= ' <h4 class="text-car1">'. $elem['fullname'] . ', '. $elem['gorod'] . '</h4>';
                         $result .= '<div class="center1">
-                            <p> <img src="templates/img/Vector (17).png" alt="">'. $elem['volume'] . ',' . $elem['Engine Type'] . '</p>
+                            <p> <img src="templates/img/Vector (17).png" alt="">'. $elem['volume'] . ',' . $elem['dvigatel'] . '</p>
                             <p class=""> <img src="templates/img/Vector (18).png" alt="">'. $elem['Horsepower'] .'</p>
                         </div>';
                         $result .= '<hr class="hr2" >';
                         $result .= '<div class="bth-cost">
-                            <a href="polcat.php?id='.$elem['id'] .'"><button class="">Забронировать</button></a><p>от <span class="">'.$elem['Cost-max'].'</span>руб/сут.</p>
+                            <a href="polcat.php?id='.$elem['id'] .'"><button class="">Забронировать</button></a><p>от <span class="">'.$elem['max'].'</span>руб/сут.</p>
                         </div>
                         </div>';
                         
